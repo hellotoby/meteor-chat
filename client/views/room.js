@@ -39,9 +39,9 @@ Template.room.events = {
         var roomUserId = SessionAmplify.get('roomUserId');
 
         if($('.away-toggle').is(':checked')) {
-            RoomUsers.update({ _id : roomUserId }, { user : SessionAmplify.get('userName'), room : SessionAmplify.get('roomId'), away : true });
+            RoomUsers.update({ _id : roomUserId }, { $set : { away : true }});
         } else {
-            RoomUsers.update({ _id : roomUserId }, { user : SessionAmplify.get('userName'), room : SessionAmplify.get('roomId'), away : false });
+            RoomUsers.update({ _id : roomUserId }, { $set : {away : false }});
         }
 
     }
