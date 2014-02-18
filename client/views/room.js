@@ -21,6 +21,12 @@ Template.room.events = {
 
         e.preventDefault();
 
+        if( $('.message').val() === '' ) {
+            
+            return false;
+        
+        }
+
         message = {
             user            : SessionAmplify.get('userName'),
             room            : SessionAmplify.get('roomId'), 
