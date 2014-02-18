@@ -34,6 +34,25 @@ Template.room.events = {
 
     },
 
+    'keyup .message' : function(e, tmpl) {
+
+        if( e.keyCode === 13 ) {
+
+            message = {
+                user            : SessionAmplify.get('userName'),
+                room            : SessionAmplify.get('roomId'), 
+                content         : $('.message').val(),
+                creation_date   : new Date()
+            };
+
+            message._id = Messages.insert(message);
+
+            $('.message').val('');
+
+        }
+
+    },
+
     'click .away-toggle' : function(e, tmpl) {
 
         var roomUserId = SessionAmplify.get('roomUserId');

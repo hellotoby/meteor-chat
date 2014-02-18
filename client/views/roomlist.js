@@ -6,6 +6,7 @@ Template.roomList.helpers({
 
 Template.roomList.rendered = function() {
 
+    // Note: This is not reactive (I don't think)
     $('.list-group li a').each(function() {
 
         var obj     = $(this);
