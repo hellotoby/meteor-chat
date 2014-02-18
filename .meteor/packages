@@ -8,7 +8,6 @@ preserve-inputs
 iron-router
 bootstrap-3
 livestamp-hs
-accounts-base
 accounts-ui-bootstrap-3
 accounts-twitter
 random
