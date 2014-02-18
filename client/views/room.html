@@ -1,0 +1,80 @@
+<template name="room">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="messages-container">
+
+                <div class="messages">
+
+                    {{#if messages}}
+
+                        {{#each messages}}
+
+                            <p>
+                                <span class="username">{{user}}:</span>
+                                {{content}}
+                                <span class="timestamp">&ndash; <span data-livestamp="{{creation_date}}"></span></span>
+                            </p>
+
+                        {{/each}}
+
+                    {{/if}}
+
+                </div>
+
+                <ul class="user-list">
+
+                    {{#if roomusers}}
+
+                        {{#each roomusers}}
+
+                            {{#if away}}
+
+                            <li class="away">{{user}} <span>&ndash; away</span></li>
+
+                            {{else}}
+
+                            <li>{{user}}</li>
+
+                            {{/if}}
+
+                        {{/each}}
+
+                    {{/if}}
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="add-message">
+
+                <p class="pull-left">Logged in as: <b>{{username}}</b></p>
+
+                <p class="pull-right"><input type="checkbox" class="away-toggle" /> <label>Set away</label></p>
+
+                <div class="form-group">
+
+                    <textarea class="form-control message" placeholder="Write a message"></textarea>
+
+                </div>
+
+                <div class="form-group clearfix">
+
+                    <input type="submit" class="btn btn-primary pull-right send-message" style="margin-left: 10px;" value="Send message" />
+                    <a href="{{pathFor 'rooms'}}" class="btn btn-danger pull-right">Disconnect</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</template>

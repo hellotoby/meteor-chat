@@ -1,0 +1,45 @@
+<template name="layout">
+
+    <header class="main">
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+            <div class="container">
+
+                <a href="#" class="navbar-brand">MeteorChat!</a>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                
+                    {{#if currentUser}}
+                
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="{{pathFor 'rooms'}}" title="Videos">Chat Rooms</a></li>
+                    </ul>
+
+                    {{/if}}
+
+                    <ul class="nav navbar-nav navbar-right">
+                        {{loginButtons}}
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <section class="main">
+        
+        {{yield}}
+
+    </section>
+
+    <footer class="main">
+
+        &nbsp;
+
+    </footer>
+
+</template>

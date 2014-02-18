@@ -1,0 +1,17 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+standard-app-packages
+preserve-inputs
+iron-router
+bootstrap-3
+livestamp-hs
+accounts-base
+accounts-ui-bootstrap-3
+accounts-twitter
+random
+iron-router-auth
+session-amplify
+houston

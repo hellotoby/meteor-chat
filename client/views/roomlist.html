@@ -1,0 +1,43 @@
+<template name="roomList">
+
+    <div class="container">
+
+        <div class="row">
+
+            <ul class="list-group">
+
+                {{#each rooms}}
+
+                     <li class="list-group-item">
+                        <a href="{{pathFor 'room'}}" title="{{name}}" data-id="{{_id}}">{{name}}</a>
+                        <span class="badge">14 users</span>
+                    </li>
+
+                {{/each}}
+
+            </ul>
+
+        </div>
+
+        <hr />
+
+        <div class="row">
+
+            <div class="form-group">
+
+                <label>Create a new room</label>
+                <input class="form-control room-name" type="text" placeholder="Room name" required />
+
+            </div>
+
+            <div class="form-group clearfix">
+
+                <input type="submit" class="create-room btn btn-primary pull-right" value="Create" />
+
+            </div>
+
+        </div>
+
+    </div>
+
+</template>

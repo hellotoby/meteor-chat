@@ -1,0 +1,64 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "iron-router": {},
+      "bootstrap-3": {},
+      "livestamp-hs": {},
+      "accounts-ui-bootstrap-3": {},
+      "iron-router-auth": {},
+      "session-amplify": {},
+      "houston": {
+        "git": "https://github.com/gterrono/houston.git",
+        "branch": "master"
+      }
+    },
+    "packages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.6.2",
+        "commit": "ce56e58b45624dce992490f3a1c10f10d3948bae"
+      },
+      "bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
+        "tag": "v3.1.0-1",
+        "commit": "329dccb08bfc18c635676dea600ac9953162cda9"
+      },
+      "livestamp-hs": {
+        "git": "https://github.com/hugesuccess/livestamp.git",
+        "tag": "v0.0.33",
+        "commit": "5db38849310c24bdd77477516e746fc40b9ed338"
+      },
+      "accounts-ui-bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-accounts-ui-bootstrap-3.git",
+        "tag": "v0.2.4",
+        "commit": "cdbd20eb065310c0cc302bbd5f22e5b2121c769a"
+      },
+      "iron-router-auth": {
+        "git": "https://github.com/XpressiveCode/iron-router-auth.git",
+        "tag": "v0.1.1",
+        "commit": "6cbba28b70b2ba960721d8440cad3b4dad915fb2"
+      },
+      "session-amplify": {
+        "git": "https://github.com/cramrov/meteor-session-amplify.git",
+        "tag": "v0.1.1",
+        "commit": "4306d0c60f5c6bd633db237bd4200d832e73a122"
+      },
+      "houston": {
+        "git": "https://github.com/gterrono/houston.git",
+        "branch": "master",
+        "commit": "1a5f69cdc7cb2761080c601e2f04275d05985737"
+      },
+      "paginated-subscription": {
+        "git": "https://github.com/tmeasday/meteor-paginated-subscription.git",
+        "tag": "v0.1.2",
+        "commit": "35e0c6112df2b4cfeb60b559276a93cac5ee2dd6"
+      },
+      "spin": {
+        "git": "https://github.com/SachaG/meteor-spin.git",
+        "tag": "v0.2.2",
+        "commit": "3f655f0016228e4195acc784c45d3e3a247dc39f"
+      }
+    }
+  }
+}

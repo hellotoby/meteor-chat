@@ -1,0 +1,14 @@
+{
+  "packages": {
+    "iron-router": {},
+    "bootstrap-3": {},
+    "livestamp-hs": {},
+    "accounts-ui-bootstrap-3": {},
+    "iron-router-auth": {},
+    "session-amplify": {},
+    "houston": {
+      "branch": "master",
+      "git": "https://github.com/gterrono/houston.git"
+    }
+  }
+}
