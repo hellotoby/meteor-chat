@@ -1,9 +1,23 @@
 
 Template.roomList.helpers({
 
-    
 
 });
+
+Template.roomList.rendered = function() {
+
+    $('.list-group li a').each(function() {
+
+        var obj     = $(this);
+        var roomId  = obj.data('id');
+
+        totalUsers  = RoomUsers.find({ room : roomId }).count();
+
+        obj.next('span').text(totalUsers + ' users');
+
+    });
+
+}
 
 Template.roomList.events = {
 
