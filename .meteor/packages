@@ -12,5 +12,6 @@ accounts-ui-bootstrap-3
 accounts-twitter
 random
 iron-router-auth
-session-amplify
 houston
+observatory
+presence

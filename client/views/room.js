@@ -2,10 +2,10 @@
 Template.room.helpers({
 
     username    : function() {
-        return SessionAmplify.get('userName');
+        return Session.get('userName');
     }, 
     roomusers   : function() {
-       return RoomUsers.find({ room : SessionAmplify.get('roomId') }, { sort : { user : 'asc' }});
+       return RoomUsers.find({ room : Session.get('roomId') }, { sort : { user : 'asc' }});
     }
 
 });
@@ -28,8 +28,8 @@ Template.room.events = {
         }
 
         message = {
-            user            : SessionAmplify.get('userName'),
-            room            : SessionAmplify.get('roomId'), 
+            user            : Session.get('userName'),
+            room            : Session.get('roomId'), 
             content         : $('.message').val(),
             creation_date   : new Date()
         };
@@ -45,8 +45,8 @@ Template.room.events = {
         if( e.keyCode === 13 ) {
 
             message = {
-                user            : SessionAmplify.get('userName'),
-                room            : SessionAmplify.get('roomId'), 
+                user            : Session.get('userName'),
+                room            : Session.get('roomId'), 
                 content         : $('.message').val(),
                 creation_date   : new Date()
             };
@@ -61,7 +61,7 @@ Template.room.events = {
 
     'click .away-toggle' : function(e, tmpl) {
 
-        var roomUserId = SessionAmplify.get('roomUserId');
+        var roomUserId = Session.get('userRoomId');
 
         if($('.away-toggle').is(':checked')) {
             RoomUsers.update({ _id : roomUserId }, { $set : { away : true }});

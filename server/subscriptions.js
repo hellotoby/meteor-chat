@@ -3,24 +3,24 @@ Meteor.publish('allRooms', function() {
     return Rooms.find();
 });
 
-Rooms.allow({
-    'insert' : function() {
-        return true;
-    }
-});
-
 Meteor.publish('roomMessages', function(roomId) {
     return Messages.find({ room : roomId });
+});
+
+Meteor.publish('roomUsers', function(roomId) {
+    return RoomUsers.find({ room : roomId });
 });
 
 Messages.allow({
     'insert' : function() {
         return true;
     }
-})
+});
 
-Meteor.publish('roomUsers', function(roomId) {
-    return RoomUsers.find({ room : roomId });
+Rooms.allow({
+    'insert' : function() {
+        return true;
+    }
 });
 
 RoomUsers.allow({
@@ -33,4 +33,17 @@ RoomUsers.allow({
     'update' : function() {
         return true;
     }
-})
+});
+
+Meteor.publish('userPresence', function(id) {
+  // Setup some filter to find the users your user
+  // cares about. It's unlikely that you want to publish the 
+  // presences of _all_ the users in the system.
+  var filter = {
+    userId : {
+        $exists : true
+    }
+  }; 
+
+  return Presences.find(filter, {fields: {state: true, userId: true}});
+});

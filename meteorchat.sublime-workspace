@@ -35,38 +35,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "server/subscriptions.js",
-			"settings":
-			{
-				"buffer_size": 606,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "client/views/roomlist.js",
-			"settings":
-			{
-				"buffer_size": 735,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "client/views/roomlist.html",
-			"settings":
-			{
-				"buffer_size": 916,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "client/views/room.js",
-			"settings":
-			{
-				"buffer_size": 1548,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -184,26 +152,40 @@
 	},
 	"file_history":
 	[
-		"/Users/tobyvervaart/Sites/meteorchat/client/views/room.js",
-		"/Users/tobyvervaart/Sites/meteorchat/smart.json",
-		"/Users/tobyvervaart/Sites/meteorchat/client/views/login.html",
-		"/Users/tobyvervaart/Sites/meteorchat/client/views/roomlist.html",
-		"/Users/tobyvervaart/Sites/meteorchat/collections/roomusers.js",
 		"/Users/tobyvervaart/Sites/meteorchat/server/subscriptions.js",
-		"/Users/tobyvervaart/Sites/meteorchat/client/stylesheets/style.css",
 		"/Users/tobyvervaart/Sites/meteorchat/lib/router.js",
-		"/Users/tobyvervaart/Sites/meteorchat/client/views/room.html",
+		"/Users/tobyvervaart/Sites/meteorchat/client/views/roomlist.js",
+		"/Users/tobyvervaart/Sites/meteorchat/client/views/room.js",
+		"/Users/tobyvervaart/Sites/meteorchat/collections/messages.js",
+		"/Users/tobyvervaart/Sites/meteorchat/collections/rooms.js",
+		"/Users/tobyvervaart/Sites/meteorchat/collections/roomusers.js",
+		"/Users/tobyvervaart/Sites/meteorchat/client/views/default.html",
+		"/Users/tobyvervaart/Sites/meteorchat/.meteor/local/build/programs/server/packages/session-amplify.js",
+		"/Users/tobyvervaart/Sites/meteorchat/.meteor/local/build/programs/server/packages/global-imports.js",
 		"/Users/tobyvervaart/Sites/meteorchat/.meteor/local/build/programs/server/app/lib/router.js",
+		"/Users/tobyvervaart/Sites/meteorchat/.meteor/local/build/programs/client/packages/session-amplify.js.map",
+		"/Users/tobyvervaart/Sites/meteorchat/.meteor/local/build/programs/client/packages/session-amplify.js",
+		"/Users/tobyvervaart/Sites/meteorchat/.meteor/local/build/programs/client/packages/global-imports.js",
 		"/Users/tobyvervaart/Sites/meteorchat/.meteor/local/build/programs/client/app/lib/router.js",
 		"/Users/tobyvervaart/Sites/meteorchat/.meteor/local/build/programs/client/app/client/views/room.js",
-		"/Users/tobyvervaart/Sites/meteorchat/client/views/roomlist.js",
-		"/Users/tobyvervaart/Sites/meteorchat/client/views/default.html",
+		"/Users/tobyvervaart/Sites/meteorchat/packages/session-amplify/package.js",
+		"/Users/tobyvervaart/Sites/meteorchat/meteorchat.sublime-workspace",
+		"/Users/tobyvervaart/Sites/meteorchat/packages/session-amplify/README.md",
+		"/Users/tobyvervaart/Sites/meteorchat/packages/session-amplify/session_extension.js",
+		"/Users/tobyvervaart/Sites/meteorchat/packages/session-amplify/.build/browser.json",
+		"/Users/tobyvervaart/Sites/meteorchat/packages/session-amplify/.build/os.json",
+		"/Users/tobyvervaart/Sites/meteorchat/packages/session-amplify/.build/browser/packages/session-amplify.js",
+		"/Users/tobyvervaart/Sites/meteorchat/packages/session-amplify/.build/browser/packages/session-amplify.js.map",
+		"/Users/tobyvervaart/Sites/meteorchat/client/views/home.html",
+		"/Users/tobyvervaart/Sites/meteorchat/client/views/roomlist.html",
+		"/Users/tobyvervaart/Sites/meteorchat/client/views/room.html",
+		"/Users/tobyvervaart/Sites/meteorchat/client/main.html",
+		"/Users/tobyvervaart/Sites/meteorchat/smart.json",
+		"/Users/tobyvervaart/Sites/meteorchat/client/views/login.html",
+		"/Users/tobyvervaart/Sites/meteorchat/client/stylesheets/style.css",
 		"/Users/tobyvervaart/Sites/meteorchat/client/config/config.js",
 		"/Users/tobyvervaart/Sites/meteorchat/client/views/login.js",
 		"/Users/tobyvervaart/Sites/meteorchat/collections/users.js",
-		"/Users/tobyvervaart/Sites/meteorchat/collections/rooms.js",
-		"/Users/tobyvervaart/Sites/meteorchat/collections/messages.js",
-		"/Users/tobyvervaart/Sites/meteorchat/client/main.html",
 		"/Users/tobyvervaart/Sites/meteorchat/client/views/default.js",
 		"/Users/tobyvervaart/Sites/meteorchat/client/index.js",
 		"/Users/tobyvervaart/Sites/meteorchat/client/views/users.html",
@@ -297,21 +279,7 @@
 		"/Users/tobyvervaart/Sites/norecruitersplease.com.au/source/application/modules/page/views/page_home.php",
 		"/Users/tobyvervaart/Sites/norecruitersplease.com.au/source/application/modules/page/views/page_home_v1.php",
 		"/Users/tobyvervaart/Sites/norecruitersplease.com.au/source/application/modules/user/helpers/user_helper.php",
-		"/Users/tobyvervaart/Sites/norecruitersplease.com.au/source/application/modules/admin/models/admin_model.php",
-		"/Users/tobyvervaart/Sites/norecruitersplease.com.au/source/application/config/config.php",
-		"/Users/tobyvervaart/Sites/norecruitersplease.com.au/source/application/config/database.php",
-		"/Users/tobyvervaart/Library/Application Support/Sublime Text 2/Packages/Find Function Definition/go2function.sublime-settings",
-		"/Users/tobyvervaart/Library/Application Support/Sublime Text 2/Packages/User/go2function.sublime-settings",
-		"/Users/tobyvervaart/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/tobyvervaart/Sites/norecruitersplease.com.au/source/application/modules/search/views/search_simple.php",
-		"/Users/tobyvervaart/Sites/norecruitersplease.com.au/source/application/modules/search/controllers/search.php",
-		"/Users/tobyvervaart/Sites/norecruitersplease.com.au/source/application/modules/employer/models/employer_model.php",
-		"/Users/tobyvervaart/Sites/norecruitersplease.com.au/source/application/modules/search/views/search_advanced.php",
-		"/Users/tobyvervaart/Sites/norecruitersplease.com.au/source/application/modules/cron/controllers/cron.php",
-		"/Users/tobyvervaart/Sites/norecruitersplease.com.au/source/application/modules/employer/views/employer_settings.php",
-		"/Users/tobyvervaart/Sites/norecruitersplease.com.au/source/application/config/routes.php",
-		"/Users/tobyvervaart/Sites/norecruitersplease.com.au/source/application/modules/employer/helpers/employer_helper.php",
-		"/Users/tobyvervaart/Sites/norecruitersplease.com.au/source/application/modules/employer/models/payments_model.php"
+		"/Users/tobyvervaart/Sites/norecruitersplease.com.au/source/application/modules/admin/models/admin_model.php"
 	],
 	"find":
 	{
@@ -322,6 +290,8 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"",
+			"<project>",
 			"router.js, room.js",
 			"stockists.html",
 			""
@@ -332,6 +302,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"roomUserId",
+			"SessionAmplify",
 			"Session",
 			"session",
 			"&",
@@ -408,6 +380,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Session",
 			"SessionAmplify",
 			"&amp;",
 			"); ?>",
@@ -427,110 +400,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "server/subscriptions.js",
-					"settings":
-					{
-						"buffer_size": 606,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								139,
-								139
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "client/views/roomlist.js",
-					"settings":
-					{
-						"buffer_size": 735,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								128,
-								128
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "client/views/roomlist.html",
-					"settings":
-					{
-						"buffer_size": 916,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								107,
-								117
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 10.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "client/views/room.js",
-					"settings":
-					{
-						"buffer_size": 1548,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1089,
-								1089
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 433.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

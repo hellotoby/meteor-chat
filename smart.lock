@@ -7,11 +7,12 @@
       "livestamp-hs": {},
       "accounts-ui-bootstrap-3": {},
       "iron-router-auth": {},
-      "session-amplify": {},
       "houston": {
         "git": "https://github.com/gterrono/houston.git",
         "branch": "master"
-      }
+      },
+      "observatory": {},
+      "presence": {}
     },
     "packages": {
       "iron-router": {
@@ -39,15 +40,20 @@
         "tag": "v0.1.1",
         "commit": "6cbba28b70b2ba960721d8440cad3b4dad915fb2"
       },
-      "session-amplify": {
-        "git": "https://github.com/cramrov/meteor-session-amplify.git",
-        "tag": "v0.1.1",
-        "commit": "4306d0c60f5c6bd633db237bd4200d832e73a122"
-      },
       "houston": {
         "git": "https://github.com/gterrono/houston.git",
         "branch": "master",
         "commit": "1a5f69cdc7cb2761080c601e2f04275d05985737"
+      },
+      "observatory": {
+        "git": "https://github.com/jhoxray/observatory.git",
+        "tag": "v0.3.21",
+        "commit": "3d6b436af0a70b784d0f9ec4709907c77bd4fd63"
+      },
+      "presence": {
+        "git": "https://github.com/dburles/meteor-presence.git",
+        "tag": "v0.4.1",
+        "commit": "ec4f872eb5b8acb0f4a8d4fcdfa439fcd61aa13b"
       },
       "paginated-subscription": {
         "git": "https://github.com/tmeasday/meteor-paginated-subscription.git",
@@ -58,6 +64,16 @@
         "git": "https://github.com/SachaG/meteor-spin.git",
         "tag": "v0.2.2",
         "commit": "3f655f0016228e4195acc784c45d3e3a247dc39f"
+      },
+      "observatory-apollo": {
+        "git": "https://github.com/superstringsoftware/observatory-apollo.git",
+        "tag": "v0.3.2",
+        "commit": "f704848187a4da2bd179864ae80a1f73a3fd22a6"
+      },
+      "observatory-galileo": {
+        "git": "https://github.com/superstringsoftware/observatory-galileo.git",
+        "branch": "master",
+        "commit": "f21b80e6502d38a7ce66206374b706f2cbd0228d"
       }
     }
   }
