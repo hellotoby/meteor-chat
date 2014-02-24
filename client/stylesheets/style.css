@@ -64,3 +64,11 @@ li.away {
     font-style: italic;
     font-weight: normal;
 }
+
+.or,
+#login-email,
+#login-password,
+#login-buttons-password,
+#login-other-options {
+    display: none;
+}
