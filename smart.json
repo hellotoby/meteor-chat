@@ -9,7 +9,6 @@
       "branch": "master",
       "git": "https://github.com/gterrono/houston.git"
     },
-    "observatory": {},
     "presence": {}
   }
 }

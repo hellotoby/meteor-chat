@@ -11,14 +11,13 @@
         "git": "https://github.com/gterrono/houston.git",
         "branch": "master"
       },
-      "observatory": {},
       "presence": {}
     },
     "packages": {
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.6.2",
-        "commit": "ce56e58b45624dce992490f3a1c10f10d3948bae"
+        "tag": "v0.6.3",
+        "commit": "79861385df5d2b667630ec82abe4de3efa3166e3"
       },
       "bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
@@ -32,8 +31,8 @@
       },
       "accounts-ui-bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-accounts-ui-bootstrap-3.git",
-        "tag": "v0.2.4",
-        "commit": "cdbd20eb065310c0cc302bbd5f22e5b2121c769a"
+        "tag": "v0.2.5",
+        "commit": "91cd37a1320213dd209c3a668bf542eeb9c39a00"
       },
       "iron-router-auth": {
         "git": "https://github.com/XpressiveCode/iron-router-auth.git",
@@ -44,11 +43,6 @@
         "git": "https://github.com/gterrono/houston.git",
         "branch": "master",
         "commit": "1a5f69cdc7cb2761080c601e2f04275d05985737"
-      },
-      "observatory": {
-        "git": "https://github.com/jhoxray/observatory.git",
-        "tag": "v0.3.21",
-        "commit": "3d6b436af0a70b784d0f9ec4709907c77bd4fd63"
       },
       "presence": {
         "git": "https://github.com/dburles/meteor-presence.git",
@@ -64,16 +58,6 @@
         "git": "https://github.com/SachaG/meteor-spin.git",
         "tag": "v0.2.2",
         "commit": "3f655f0016228e4195acc784c45d3e3a247dc39f"
-      },
-      "observatory-apollo": {
-        "git": "https://github.com/superstringsoftware/observatory-apollo.git",
-        "tag": "v0.3.2",
-        "commit": "f704848187a4da2bd179864ae80a1f73a3fd22a6"
-      },
-      "observatory-galileo": {
-        "git": "https://github.com/superstringsoftware/observatory-galileo.git",
-        "branch": "master",
-        "commit": "f21b80e6502d38a7ce66206374b706f2cbd0228d"
       }
     }
   }
