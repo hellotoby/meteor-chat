@@ -16,13 +16,13 @@
     "packages": {
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.6.3",
-        "commit": "79861385df5d2b667630ec82abe4de3efa3166e3"
+        "tag": "v0.7.0",
+        "commit": "05f34bc48c4cad9fdaa366c1ddcabe6980232ece"
       },
       "bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
-        "tag": "v3.1.0-1",
-        "commit": "329dccb08bfc18c635676dea600ac9953162cda9"
+        "tag": "v3.1.1-1",
+        "commit": "63dd38968828bb8963636df93e9a1c45e2dfe67e"
       },
       "livestamp-hs": {
         "git": "https://github.com/hugesuccess/livestamp.git",
@@ -31,23 +31,28 @@
       },
       "accounts-ui-bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-accounts-ui-bootstrap-3.git",
-        "tag": "v0.2.5",
-        "commit": "91cd37a1320213dd209c3a668bf542eeb9c39a00"
+        "tag": "v0.3.0-1",
+        "commit": "93ffa5d0e325dc7026de89f6d90c178fa04bdd3a"
       },
       "iron-router-auth": {
         "git": "https://github.com/XpressiveCode/iron-router-auth.git",
-        "tag": "v0.1.1",
-        "commit": "6cbba28b70b2ba960721d8440cad3b4dad915fb2"
+        "tag": "v0.2.0",
+        "commit": "f868799c5b6511813abe1b3d3ed29f25f10099a0"
       },
       "houston": {
         "git": "https://github.com/gterrono/houston.git",
         "branch": "master",
-        "commit": "1a5f69cdc7cb2761080c601e2f04275d05985737"
+        "commit": "c9af02ec7b52b5ea061a36d260386aa25644507d"
       },
       "presence": {
         "git": "https://github.com/dburles/meteor-presence.git",
-        "tag": "v0.4.1",
-        "commit": "ec4f872eb5b8acb0f4a8d4fcdfa439fcd61aa13b"
+        "tag": "v0.4.3",
+        "commit": "8bfcae844195ff5681a123cb4302af9e719663ac"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.2",
+        "commit": "8bc53798fe5965669ae67c72f91829fcfdceabfd"
       },
       "paginated-subscription": {
         "git": "https://github.com/tmeasday/meteor-paginated-subscription.git",
