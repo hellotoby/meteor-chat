@@ -7,9 +7,9 @@ standard-app-packages
 iron-router
 bootstrap-3
 livestamp-hs
-accounts-ui-bootstrap-3
 accounts-twitter
 random
 iron-router-auth
 houston
 presence
+accounts-ui-bootstrap-3-blaze

@@ -3,12 +3,12 @@
     "iron-router": {},
     "bootstrap-3": {},
     "livestamp-hs": {},
-    "accounts-ui-bootstrap-3": {},
     "iron-router-auth": {},
     "houston": {
       "branch": "master",
       "git": "https://github.com/gterrono/houston.git"
     },
-    "presence": {}
+    "presence": {},
+    "accounts-ui-bootstrap-3-blaze": {}
   }
 }

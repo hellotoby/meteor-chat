@@ -5,19 +5,19 @@
       "iron-router": {},
       "bootstrap-3": {},
       "livestamp-hs": {},
-      "accounts-ui-bootstrap-3": {},
       "iron-router-auth": {},
       "houston": {
         "git": "https://github.com/gterrono/houston.git",
         "branch": "master"
       },
-      "presence": {}
+      "presence": {},
+      "accounts-ui-bootstrap-3-blaze": {}
     },
     "packages": {
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.7.0",
-        "commit": "05f34bc48c4cad9fdaa366c1ddcabe6980232ece"
+        "tag": "v0.7.1",
+        "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
       },
       "bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
@@ -29,35 +29,35 @@
         "tag": "v0.0.33",
         "commit": "5db38849310c24bdd77477516e746fc40b9ed338"
       },
-      "accounts-ui-bootstrap-3": {
-        "git": "https://github.com/mangasocial/meteor-accounts-ui-bootstrap-3.git",
-        "tag": "v0.3.0-1",
-        "commit": "93ffa5d0e325dc7026de89f6d90c178fa04bdd3a"
-      },
       "iron-router-auth": {
         "git": "https://github.com/XpressiveCode/iron-router-auth.git",
-        "tag": "v0.2.0",
-        "commit": "f868799c5b6511813abe1b3d3ed29f25f10099a0"
+        "tag": "v0.2.1",
+        "commit": "39b5d70326536641bc50a184d195aa3ac49ff4a5"
       },
       "houston": {
         "git": "https://github.com/gterrono/houston.git",
         "branch": "master",
-        "commit": "c9af02ec7b52b5ea061a36d260386aa25644507d"
+        "commit": "9d9109475aa8eedb17f056310eb542f3d31383bc"
       },
       "presence": {
         "git": "https://github.com/dburles/meteor-presence.git",
-        "tag": "v0.4.3",
-        "commit": "8bfcae844195ff5681a123cb4302af9e719663ac"
+        "tag": "v0.4.5",
+        "commit": "163df9a9278c234a0ccbeaad8e4868a4571816c8"
+      },
+      "accounts-ui-bootstrap-3-blaze": {
+        "git": "https://github.com/rajit/meteor-accounts-ui-bootstrap-3.git",
+        "tag": "v0.3.7",
+        "commit": "a40b15f4b6213040accec10df97a7793e3a25225"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
-        "tag": "v0.2.2",
-        "commit": "8bc53798fe5965669ae67c72f91829fcfdceabfd"
+        "tag": "v0.2.4",
+        "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
       },
       "paginated-subscription": {
         "git": "https://github.com/tmeasday/meteor-paginated-subscription.git",
-        "tag": "v0.1.2",
-        "commit": "35e0c6112df2b4cfeb60b559276a93cac5ee2dd6"
+        "tag": "v0.2.2",
+        "commit": "2133a2163575f569f90253f81314f21b2bf08d20"
       },
       "spin": {
         "git": "https://github.com/SachaG/meteor-spin.git",
